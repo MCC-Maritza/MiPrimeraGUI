@@ -16,6 +16,7 @@ public class MiPrimeraGUI extends JFrame{
     public MiPrimeraGUI(){
         setTitle("Mi primera ventana"); //Establece el título de la ventana
         setSize(800, 580); //Dimenciona la ventana (largo y ancho)
+        setLayout(null); //Posicionamiento de los objetos
         Componentes(); //Llamada al método que contiene los componentes que conforman el  formulario
         this.setResizable(false); //Cambiar el tamaño del marco
         setLocationRelativeTo(null); //Posiciona la ventana en el centro
